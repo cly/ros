@@ -134,6 +134,7 @@ include_directories(
 add_executable(hello hello.cpp)
 add_executable(pubvel pubvel.cpp)
 add_executable(subpose subpose.cpp)
+add_executable(count count.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -153,6 +154,7 @@ add_executable(subpose subpose.cpp)
 target_link_libraries(hello ${catkin_LIBRARIES})
 target_link_libraries(pubvel ${catkin_LIBRARIES})
 target_link_libraries(subpose ${catkin_LIBRARIES})
+target_link_libraries(count ${catkin_LIBRARIES})
 
 #############
 ## Install ##
